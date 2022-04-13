@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string.h>
 
 using namespace std;
 
@@ -106,16 +105,11 @@ int main()
     obj.display();
     obj.discount();
 
-   //using explicit keyword 
-    // Items iobj2(70.5);
-    // Items iobj3 = 79.7;
-
-
-    Cosmetics cobj;
-    cobj.display();
-    cobj.discount();
-    cobj.setName("dove shampoo");
-    cobj.getName();
+    // Cosmetics cobj;
+    // cobj.display();
+    // cobj.discount();
+    // cobj.setName("shampoo");
+    // cobj.getName();
 
     Medicines mobj;
     mobj.display();
